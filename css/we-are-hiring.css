@@ -138,6 +138,7 @@ main {
 
 
 /* ****************************************************** */
+
 .brands{
     padding: 50px 0px;
 }
@@ -149,6 +150,56 @@ main {
 }
 .brands h4 span{
     color: #f26032;
+}
+/* ****************************************************** */
+
+
+/* ****************************************************** */
+.modal-title{
+	font-family: var(--heading-font);
+	font-weight: bold;
+}
+.modal-title span{
+	color: var(--theme-color);
+}
+.modal-body h4{
+	font-family: var(--heading-font);
+	font-weight: 500;
+	font-size: 20px;
+}
+.modal-body ul{
+	list-style: none;
+	font-family: var(--basic-font);
+	font-size: 14px;
+}
+.modal-body form{
+	font-family: var(--basic-font);
+	font-size: 12px;
+}
+.modal-body form .row{
+	background-color: #f3f5fd;
+	padding: 15px;
+	margin:0px;
+}
+
+.modal-body input, .modal-body select{
+	border: none;
+	background-color: transparent;
+	border-bottom: 1px solid #acacac;
+	width: 100%;
+	margin-bottom: 15px;
+	padding: 8px 0px;
+}
+.modal-body input:focus, .modal-body select:focus{
+	outline-color: transparent;
+	border-color: var(--theme-color);
+	color: var(--theme-color);
+}
+.modal-body input:focus::placeholder{
+	color: var(--theme-color);
+}
+.modal-footer{
+	padding: 40px 10px 15px 10px;
 }
 /* ****************************************************** */
 
