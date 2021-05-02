@@ -1,0 +1,219 @@
+footer{
+    padding: 180px 0px 15px 0px;
+    background-image: url(../images/bg-footer.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 9;
+    margin-top: -120px;
+    color: #fff;
+}
+footer ul{
+    list-style: none;
+    font-family: 'Rubik', sans-serif;
+}
+footer ul li{
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+footer ul li a{
+    color: #fff;
+    transition: all .5s;
+}
+footer ul li a:hover{
+    color: var(--primary-color);
+    text-decoration: none;
+}
+footer ul li b{
+    font-size: 18px;
+    font-weight: 500;
+}
+footer ul.info{
+    margin-top: 15px;
+}
+footer ul.info li{
+    display: flex;
+    margin-bottom: 15px;
+}
+footer ul.info li i{
+    margin-right: 10px;
+    /* border: 1px solid red; */
+}
+footer ul.info li i.fa-mobile-phone{
+    font-size: 32px;
+}
+footer ul.info li i.fa-map-marker{
+    font-size: 23px;
+}
+footer ul.info li p{
+    margin: 0px;
+    font-size: 14px;
+}
+footer label{
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Rubik', sans-serif;
+}
+footer input{
+    font-family: 'Poppins';
+    font-weight: normal;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    background-color: transparent;
+    padding: 5px;
+    width: 80%;
+    color: #fff;
+    font-size: 14px;
+}
+
+footer button{
+    padding: 3px 0px 6px 0px;
+    width: 17%;
+    background-color: #f26036;
+    border: 1px solid #f26036;
+    border-radius: 5px;
+}
+footer button svg{
+    fill:#fff;
+    width: 15px;
+}
+.copy-right{
+    text-align: center;
+    padding: 8px 0px;
+    border-top: 1px solid rgba(255, 255, 255, 0.253);
+    margin-top: 40px;
+}
+.copy-right p{
+    color: #fff;
+    font-family: 'Rubik';
+    font-size: 14px;
+}
+.copy-right p a{
+    color: #f26036;
+    text-decoration: none;
+}
+.copy-right p a:hover{
+    color: #f26036;
+}
+.copy-right br{
+    display: none;
+}
+
+/****************************************/
+.foot-xs{
+    display: none;
+}
+.foot-xs h5{
+    font-family:'Poppins';
+    border-bottom: 1px solid #fff;
+    padding-bottom: 8px;
+    padding-right: 10px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    font-weight: normal;
+    font-size: 16px;
+}
+.foot-xs h5:before{
+    content: '\002B';
+    float: right;
+    font-weight: normal;
+    font-family:Helvetica;
+}
+.foot-xs h5.active-h:before{
+    content: '\2212';
+}
+.foot-xs ul{
+    padding:0px 15px 15px 15px;
+    font-family: 'Rubik';
+    font-size: 14px;
+    display: none;
+}
+.foot-xs ul li{
+    display: flex;
+    align-items: center;
+}
+.foot-xs ul li i{
+    margin-right: 10px;
+    /* border: 1px solid red; */
+}
+.foot-xs ul li i.fa-mobile-phone{
+    font-size: 32px;
+}
+.foot-xs ul li i.fa-map-marker{
+    font-size: 23px;
+}
+.foot-xs .form-1{
+    display: none;
+}
+.foot-xs label{
+    font-family:'Poppins';
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.anim-bootom-up{
+    opacity: 0;
+    animation-name: bottom-up;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-delay: .2s;
+}
+
+
+
+@media screen and (max-width:991px){
+    
+    footer{
+        margin-top: -220px;
+    }
+    footer .f1{
+        text-align: center;
+    }
+    footer ul.info li{
+        justify-content: center;
+    }
+    footer .f2, footer .f3, footer .f4{
+        margin-top: 15px;
+       display: flex;
+       justify-content: center;
+    }
+    footer .f2, footer .f3{
+        border-right: 1px solid rgba(255, 255, 255, 0.253);
+    }
+    footer input{
+        width: 90%;
+    }
+    footer button{
+        width: 6%;
+    }
+}
+@media screen and (max-width:767px){
+    footer input{
+        width: 90%;
+    }
+    footer button{
+        width: 9%;
+    }
+}
+@media screen and (max-width:575px){
+    .foot-xl{
+        display: none;
+    }
+    .copy-right br{
+        display: block;
+    }
+    .copy-right span{
+        display: none;
+    }
+    .foot-xs{
+        display: block;
+    }
+    footer input{
+        width: 80%;
+    }
+    footer button{
+        width: 48px;
+    }
+}

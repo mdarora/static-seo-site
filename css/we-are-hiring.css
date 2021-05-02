@@ -1,0 +1,302 @@
+:root{
+	--heading-font:'Poppins';
+	--basic-font:'Rubik';
+	--theme-color:#f26032;
+}
+main {
+    padding-top: 67px;
+}
+.page-head{
+	background-image: url(../images/inner-page-banner-bg.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-color: black;
+	color: white;
+	padding: 65px 0px;
+}
+.page-head h4{
+	font-family: var(--heading-font);
+	font-weight: bold;
+	font-size: 36px;
+}
+.page-head p{
+	font-family: var(--basic-font);
+	font-size: 14px;
+	margin-bottom: 0px;
+}
+
+/**********************************************************/
+.big-bg{
+	background-image: url(../images/big-bg-img.png);
+	background-position: center top;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+/***********************************************************/
+.work-at{
+	padding: 50px 0px;
+}
+.work-at p:nth-child(1){
+	font-family: var(--heading-font);
+	font-size: 16px;
+	color: var(--theme-color);
+	margin-bottom: 0px;
+}
+.work-at h4{
+	font-family: var(--heading-font);
+	font-weight: bold;
+	font-size: 26px;
+	margin-bottom: 15px;
+}
+.work-at h4 span{
+	color: var(--theme-color);
+}
+.work-at p:nth-child(3), .work-at p:nth-child(4){
+	font-family: var(--basic-font);
+	font-size: 14px;
+}
+.work-at img{
+	width: 80%;
+}
+
+
+.work-at .paras p:nth-of-type(1){
+	margin-bottom: 16px;
+	margin-top: 40px;
+}
+.work-at .paras p{
+	font-family: var(--basic-font);
+	font-size: 14px;
+	color: black;
+	text-align: center;
+}
+/***********************************************************/
+.job-open{
+	padding: 50px 0px;
+}
+.job-open .text-center h4{
+	font-family: var(--heading-font);
+	font-weight: bold;
+	font-size: 26px;
+	margin-bottom: 15px;
+}
+.job-open .text-center h4 span{
+	color: var(--theme-color);
+}
+.job-open h4 + p{
+	font-family: var(--basic-font);
+	font-size: 14px;
+}
+.jobs{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-top: 50px;
+	font-family: var(--basic-font);
+	padding: 30px;
+	background-color: #fff;
+	box-shadow: 1px 1px 10px -1px #00000033;
+}
+.jobs .title{
+	display: flex;
+	justify-content: space-between;
+}
+.jobs p{
+	margin-bottom: 0px;
+}
+.jobs div div p:nth-child(1){
+	font-size: 20px;
+	font-weight: 500;
+}
+.jobs div span img{
+	width: 45px;
+	margin-right: 20px;
+	margin-top: 2px;
+}
+.jobs div div p:nth-child(2){
+	font-size:12px;
+	color: var(--theme-color);
+	cursor: pointer;
+}
+.jobs div p:nth-of-type(1){
+	font-size: 16px;
+}
+.jobs div p:nth-of-type(2){
+	font-size: 12px;
+}
+.jobs div:last-child a{
+	font-family: var(--heading-font);
+/*	color: #fff;
+	padding: 8px 30px;
+	font-size: 14px;
+	background-color: var(--theme-color);
+	border-radius: 3px;*/
+	box-shadow: 1px 5px 8px -1px #00000044;
+	text-decoration: none;
+}
+
+
+/* ****************************************************** */
+.brands{
+    padding: 50px 0px;
+}
+.brands h4{
+    font-family: 'Poppins';
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+.brands h4 span{
+    color: #f26032;
+}
+/* ****************************************************** */
+
+/* ****************************************************** */
+
+.quotes{
+    color: #fff;
+    background-image: url(../images/call-to-action-1.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 50px 0px;
+}
+.quotes p:nth-of-type(1){
+    font-size: 18px;
+    font-family: 'Poppins';
+    font-weight: normal;
+    margin: 0px;
+}
+.quotes h4{
+    font-family: 'Poppins';
+    font-size: 36px;
+    font-weight: bold;
+}
+.quotes h4 + p{
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    padding: 0px 150px;
+}
+.quotes form{
+    margin-top: 40px;
+}
+
+.form-row{
+    padding: 0px 150px;
+}
+.form-row input{
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+}
+.form-row input:focus{
+    background-color: transparent;
+    border: 1px solid #fff;
+    box-shadow: 0px 0px 0px 0px transparent;
+    color: #fff;
+}
+.form-row input::placeholder{
+    color: #fff;
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+}
+.form-row .button{
+    background-color: #fff;
+    color: #f26032;
+    padding: 10px 15px;
+    text-align: center !important;
+    font-family: 'Rubik', sans-serif;
+    font-weight:normal;
+}
+.form-row .button--bubble:hover {
+    background: #fff;
+}
+.form-row .button--bubble:hover + .button--bubble__effect-container .circle {
+    background: #fff;
+}
+.form-row .button--bubble:hover + .button--bubble__effect-container .button {
+    background: #fff;
+} 
+
+.form-row .button--bubble {
+    background: #fff;
+}
+.form-row .button--bubble + .button--bubble__effect-container .circle {
+    background: #fff;
+}
+.form-row .button--bubble + .button--bubble__effect-container .button {
+    background: #fff;
+}
+
+.quotes-2{
+    padding: 80px 0px 200px 0px;
+    z-index: 1;
+}
+
+/* ************************************************************************ */
+
+
+@media screen and (min-width: 992px) and (max-width: 1200px){
+	.work-at img{
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 991px){
+	.form-row{
+        padding: 0px 0px 0px 85px;
+    }
+    .quotes h4 + p{
+        padding: 0px 70px;
+    }
+}
+
+@media screen and (max-width: 767px){
+	.form-row {
+        padding: 0px;
+    }
+    .form-row div{
+        margin-bottom: 15px;
+    }
+    .form-row div:nth-child(3){
+        text-align: center;
+    }
+    .quotes h4 + p{
+        padding: 0px;
+    }
+    .jobs{
+    	display: block;
+    }
+    .jobs div:nth-of-type(1){
+		justify-content: flex-start;
+    }
+    .jobs div:nth-of-type(2), .jobs div:nth-of-type(3){
+		width: 30%;
+		display: inline-block;
+		margin:15px 0px;
+    }
+    .jobs div:nth-of-type(4){
+    	width: 35%;
+    	display: inline-block;
+    	transform: translateY(-10px);
+    }
+}
+
+@media screen and (max-width: 574px){
+	.jobs div:nth-of-type(2), .jobs div:nth-of-type(3){
+		width: 49%;
+		display: inline-block;
+		margin:15px 0px;
+		text-align: center;
+    }
+    .jobs div:nth-of-type(4){
+    	width: 100%;
+    	display: block;
+    	transform: translateY(0px);
+    	text-align: center;
+    	margin-top: 15px;
+    }
+}
