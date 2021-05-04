@@ -127,8 +127,9 @@ main {
 }
 .jobs div:last-child a{
 	font-family: var(--heading-font);
-/*	color: #fff;
-	padding: 8px 30px;
+	color: #fff;
+	cursor: pointer;
+/*	padding: 8px 30px;
 	font-size: 14px;
 	background-color: var(--theme-color);
 	border-radius: 3px;*/
@@ -137,6 +138,58 @@ main {
 }
 
 
+/* ****************************************************** */
+
+/* ****************************************************** */
+.modal-title{
+	font-family: var(--heading-font);
+	font-weight: bold;
+}
+.modal-title span{
+	color: var(--theme-color);
+}
+.modal-body h4{
+	font-family: var(--heading-font);
+	font-weight: 500;
+	font-size: 20px;
+}
+.modal-body ul{
+	list-style: none;
+	font-family: var(--basic-font);
+	font-size: 14px;
+}
+.modal-body .form{
+	font-family: var(--basic-font);
+	font-size: 12px;
+	padding: 15px;
+}
+.modal-body .form .row{
+	background-color: #f3f5fd;
+	padding: 15px;
+	margin:0px;
+}
+
+.modal-body input, .modal-body select{
+	border: none;
+	background-color: transparent;
+	border-bottom: 1px solid #acacac;
+	width: 100%;
+	margin-bottom: 30px;
+	padding: 8px 0px;
+	font-size: 12px;
+	font-family: var(--basic-font);
+}
+.modal-body input:focus, .modal-body select:focus{
+	outline-color: transparent;
+	border-color: var(--theme-color);
+	color: var(--theme-color);
+}
+.modal-body input:focus::placeholder{
+	color: var(--theme-color);
+}
+.modal-footer{
+	padding: 40px 10px 15px 10px;
+}
 /* ****************************************************** */
 
 .brands{
@@ -350,4 +403,8 @@ main {
     	text-align: center;
     	margin-top: 15px;
     }
+	.modal-body .form, .modal-body .form .row{
+		padding: 0px;
+	}
+	
 }
