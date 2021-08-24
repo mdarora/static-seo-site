@@ -408,3 +408,9 @@ main {
 	}
 	
 }
+
+@media screen and (max-width:374px) {
+	.page-head h4{
+		font-size: 28px;
+	}
+}
